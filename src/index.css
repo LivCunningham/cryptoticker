@@ -9,4 +9,64 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-image: url('./images/color.svg');
+}
+
+.title-page {
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.coins {
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.image-coins {
+  margin: 0rem 1rem 1rem 1rem;
+  background-color: white;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border-radius: 1rem;
+}
+
+.cash-titles {
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+#price {
+  margin-left: 1rem;
+  border: black;
+}
+
+#symbol {
+  margin-left: 1rem;
+}
+
+.card {
+  margin-bottom: 1rem;
+  background-color: whitesmoke;
+  padding-right: 1rem;
+  padding-left: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0.2em 0.2rem 1rem grey;
 }
