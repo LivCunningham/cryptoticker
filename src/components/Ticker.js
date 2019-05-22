@@ -9,6 +9,7 @@ class Ticker extends Component {
   componentDidMount() {
     console.log('component mounted')
     this.getCoinsFromApi()
+    setInterval(() => this.getCoinsFromApi(), 10000)
   }
 
   getCoinsFromApi = () => {
